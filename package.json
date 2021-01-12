@@ -1,0 +1,8 @@
+{
+  "name": "basic-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shihanng/basic-webpack",
+  "author": "Shi Han NG <shihanng@gmail.com>",
+  "license": "MIT"
+}
