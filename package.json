@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "webpack": "webpack",
-    "dev": "yarn run webpack --mode development"
+    "dev": "yarn run webpack --mode development",
+    "prod": "yarn run webpack --mode production"
   },
   "devDependencies": {
     "webpack": "^5.13.0",
