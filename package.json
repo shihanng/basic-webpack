@@ -6,7 +6,8 @@
   "author": "Shi Han NG <shihanng@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "dev": "yarn run webpack --mode development"
   },
   "devDependencies": {
     "webpack": "^5.13.0",
