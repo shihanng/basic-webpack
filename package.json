@@ -7,8 +7,11 @@
   "license": "MIT",
   "scripts": {
     "webpack": "webpack",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "dev": "yarn run webpack --mode development",
-    "prod": "yarn run webpack --mode production"
+    "prod": "yarn run webpack --mode production",
+    "dev:debug": "yarn run debug --mode development",
+    "prod:debug": "yarn run debug --mode production"
   },
   "devDependencies": {
     "webpack": "^5.13.0",
