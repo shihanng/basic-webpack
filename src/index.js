@@ -5,5 +5,7 @@ import { makeColorStyle } from "./button-styles";
 
 console.log(nav);
 console.log(top, bottom);
-console.log(makeButton("simple"));
 console.log(makeColorStyle("cyan"));
+
+const button = makeButton("A button");
+document.body.appendChild(button);
