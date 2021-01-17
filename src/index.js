@@ -1,5 +1,6 @@
 import makeButton from "./button";
 import { makeColorStyle } from "./button-styles";
+import "./button.css";
 import { footer } from "./footer";
 import "./footer.css";
 import nav from "./nav";
