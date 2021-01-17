@@ -1,7 +1,8 @@
 import makeButton from "./button";
-import { footer } from "./footer";
-import nav from "./nav";
 import { makeColorStyle } from "./button-styles";
+import { footer } from "./footer";
+import "./footer.css";
+import nav from "./nav";
 
 console.log(nav);
 

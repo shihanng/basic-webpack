@@ -8,7 +8,7 @@
   "scripts": {
     "webpack": "webpack",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "dev": "yarn run webpack serve --env mode=development",
+    "dev": "yarn run webpack serve --env mode=development --hot",
     "prod": "yarn run webpack --env mode=production",
     "dev:debug": "yarn run debug --env mode=development",
     "prod:debug": "yarn run debug --env mode=production"
