@@ -8,6 +8,14 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
     {
       output: { filename: "bundle.js" },
       mode,
+      module: {
+        rules: [
+          {
+            test: /\.jpg$/,
+            use: [{ loader: "url-loader", options: { limit: 5000 } }],
+          },
+        ],
+      },
       plugins: [new HtmlWebpackPlugin(), new webpack.ProgressPlugin()],
     },
     modeConfig(mode)
