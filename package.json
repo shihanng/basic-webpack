@@ -10,7 +10,8 @@
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "dev": "yarn run webpack serve --env mode=development --hot",
     "prod": "yarn run webpack --env mode=production",
-    "prod:typescript": "yarn run webpack --env presets=typescript --env mode=production",
+    "prod:typescript": "yarn run prod --env presets=typescript",
+    "prod:analyze": "yarn run prod --env presets=analyze",
     "dev:debug": "yarn run debug --env mode=development",
     "prod:debug": "yarn run debug --env mode=production"
   },
@@ -24,8 +25,10 @@
     "typescript": "^4.1.3",
     "url-loader": "^4.1.1",
     "webpack": "^5.13.0",
+    "webpack-bundle-analyzer": "^4.3.0",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
-  }
+  },
+  "dependencies": {}
 }
