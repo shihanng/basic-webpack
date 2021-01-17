@@ -12,10 +12,12 @@
     "prod": "yarn run webpack --env mode=production",
     "prod:typescript": "yarn run prod --env presets=typescript",
     "prod:analyze": "yarn run prod --env presets=analyze",
+    "prod:compress": "yarn run prod:typescript --env presets=compress",
     "dev:debug": "yarn run debug --env mode=development",
     "prod:debug": "yarn run debug --env mode=production"
   },
   "devDependencies": {
+    "compression-webpack-plugin": "^7.1.2",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
